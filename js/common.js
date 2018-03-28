@@ -12,6 +12,13 @@ if (innerWidth > 375) {
 window.__baseREM = rem;
 document.querySelector('html').style.fontSize = rem + 'px';
 
+function stopPropagation(e) {
+    if (e.stopPropagation)
+        e.stopPropagation();
+    else
+        e.cancelBubble = true;
+}
+
 $(function(){
    setTimeout(function() {
        $(".avg").animate({width:'90%'}, "slow");
@@ -25,10 +32,10 @@ $(function(){
        else {
            $(".hide-info").slideDown();
        }
-       e.stopPropagation();
+       stopPropagation(e);
    });
 
-   $("body").click(function(){
+   $(document).click(function(){
        $(".hide-info").slideUp();
    });
 });
