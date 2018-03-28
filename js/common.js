@@ -35,7 +35,7 @@ $(function(){
        stopPropagation(e);
    });
 
-   $(document).click(function(){
+   $(document).on('click touchstart', function () {
        $(".hide-info").slideUp();
    });
 });
