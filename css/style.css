@@ -165,7 +165,6 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
 
 .little-tile {
     font-size: 0.155rem;
-
 }
 .indent {
     padding-left: 0.16rem;
@@ -183,4 +182,26 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
     background-color: #4F5F6F;
     width: 49%;
     padding: 0.17rem 0;
+    font-size: 0.16rem;
+}
+
+
+/*share*/
+.bgbody {background-color: #fff;}
+.main-share{
+    background: #fff url(../image/back2.png) no-repeat;
+    opacity: 0.5;
+    background-size: cover;
+}
+.block-share {
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px 10px;
+}
+.block-share p {
+    line-height: 0.27rem;
+    font-size: 0.16rem;
+}
+.block-share p img {
+    width: 100%;
 }
