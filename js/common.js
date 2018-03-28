@@ -18,16 +18,17 @@ $(function(){
        $(".mine").animate({width:'50%'}, "slow");
    }, 1000);
 
-   $(".question").click(function() {
+   $(".question").click(function(e) {
        if($(".hide-info").is(":visible")) {
            $(".hide-info").slideUp();
        }
        else {
            $(".hide-info").slideDown();
        }
+       e.stopPropagation();
    });
 
-   $(".hide-info").click(function(){
+   $("body").click(function(){
        $(".hide-info").slideUp();
    });
 });
