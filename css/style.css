@@ -110,6 +110,9 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
 .bg-yellow {
     background-color: #FFC000;
 }
+.bg-pink {
+    background-color: #FC4C7A;
+}
 
 .bg-deep-blue {
     background-color: #4F5F6F;
@@ -290,6 +293,11 @@ ul.two-linear li p{
 
 .tb-jiyin tr{
     line-height: 0.26rem;
+    border-top: 1px solid #EAECEE;
+}
+
+.tb-jiyin tr:nth-last-of-type(1){
+    border-bottom: 1px solid #EAECEE;
 }
 
 .tb-jiyin tr td, .tb-jiyin tr th{
