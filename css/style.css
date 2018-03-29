@@ -23,7 +23,7 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
     text-align: center;
 }
 .block {
-    margin: 10px 4%;
+    margin: 0px 4% 20px 4%;
     background-color: #FFF;
     padding: 20px 5%;
     width: 82%;
@@ -96,8 +96,19 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
     color: #59C2E6;
 }
 
+.bg-green {
+    background-color: #92D050;
+}
+
 .bg-blue {
     background-color: #59C2E6;
+}
+
+.bg-red {
+    background-color: #F03442;
+}
+.bg-yellow {
+    background-color: #FFC000;
 }
 
 .bg-deep-blue {
@@ -246,4 +257,82 @@ div.jiyin .erweima img{
 
 div.jiyin .erweima p{
     font-size: 0.115rem;
+}
+
+/*science*/
+.main .header {
+    background-color: #4F5F6F;
+    padding: 0.15rem 0;
+    font-size: 0.15rem;
+    color: #FFF;
+    text-align: center;
+    width: 92%;
+    margin: 0 4% 0 4%;
+}
+
+ul.two-linear {
+    margin: 40px 0 20px;
+}
+ul.two-linear li:first-of-type{
+    border-right: 1px solid #E8EAEC;
+}
+ul.two-linear li {
+    width: 50%;
+}
+ul.two-linear li p{
+    text-align: center;
+    font-size: 0.16rem;
+}
+
+.tb-jiyin {
+    width: 100%;
+}
+
+.tb-jiyin tr{
+    line-height: 0.26rem;
+}
+
+.tb-jiyin tr td, .tb-jiyin tr th{
+    text-align: center;
+    padding: 0.08rem 0;
+}
+
+.tb-jiyin tr td span{
+    display: inline-block;
+    width: 0.26rem;
+    height: 0.26rem;
+    border-radius: 0.13rem;
+    line-height: 0.26rem;
+    color: #FFF;
+}
+
+ul.statement {
+    margin-top: 30px;
+}
+ul.statement li {
+    line-height: 0.35rem;
+}
+
+ul.statement li i{
+    display: block;
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 0.08rem;
+    margin: 0.08rem 0.06rem 0 0;
+    float: left;
+}
+
+.sbm-share {
+    background-color: #F0F3F6;
+    margin: 25px 4%;
+    text-align: center;
+}
+.sbm-share button {
+    color: #fff;
+    width: 100%;
+    padding: 0.17rem 0;
+    font-size: 0.16rem;
+}
+.clear {
+    clear: both;
 }
