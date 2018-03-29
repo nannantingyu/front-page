@@ -43,7 +43,7 @@ $(function(){
         $(".dialog").slideDown();
    });
 
-    $("dialog-close i").click(function() {
+    $(".dialog-close i").click(function() {
         $(".dialog").slideUp();
     });
 });

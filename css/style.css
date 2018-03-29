@@ -364,7 +364,7 @@ ul.statement li i{
     height: 100%;
     background-color: #4B4C50;
     padding-top: 20px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: none;
