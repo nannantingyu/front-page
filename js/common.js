@@ -40,7 +40,7 @@ $(function(){
    });
 
    $("button.wb100").click(function() {
-        $(".dialog").slideDown();
+        $("#dialog-" + $(this).data("dialog")).slideDown();
    });
 
     $(".dialog-close i").click(function() {
