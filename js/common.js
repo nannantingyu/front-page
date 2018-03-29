@@ -38,4 +38,12 @@ $(function(){
    $(document).on('click touchstart', function () {
        $(".hide-info").slideUp();
    });
+
+   $("button.wb100").click(function() {
+        $(".dialog").slideDown();
+   });
+
+    $("dialog-close i").click(function() {
+        $(".dialog").slideUp();
+    });
 });
