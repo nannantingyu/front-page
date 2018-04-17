@@ -15,7 +15,7 @@ button{cursor:pointer;}
 input{outline: none;font-size:0.14rem;color:#333}
 em{font-style:normal;}
 
-body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, Helvetica, Tahoma, "lantinghei sc", "Microsoft Yahei", simsun, sans-serif;font-size:0.14rem;color:#333;min-width: 320px;}
+body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, Helvetica, Tahoma, "lantinghei sc", "Microsoft Yahei", simsun, sans-serif;font-size:0.14rem;color:#4f5f6f;min-width: 320px;}
 .flex {
     display: flex;
 }
@@ -60,6 +60,7 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
     float: left;
     width: 75%;
     margin-left: 5%;
+    padding-top: 0.08rem;
 }
 
 .title {
@@ -68,7 +69,7 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
 }
 
 .info p {
-    line-height: 0.35rem;
+    line-height: 0.25rem;
 }
 
 
@@ -93,7 +94,7 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
     height: 18px;
 }
 .blue {
-    color: #59C2E6;
+    color: #7ebe9e;
 }
 
 .bg-green {
@@ -131,12 +132,14 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
 }
 
 .bar-line {
-    line-height: 0.35rem;
+    line-height: 0.25rem;
     position: relative;
+    font-size: 0.12rem;
 }
 .bar-line p{
     width: 31%;
     text-align: left;
+    line-height: 0.2rem;
 }
 .bar-line .bar-box {
     width: 69%;
@@ -180,8 +183,8 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
 
 .bar {
     display: inline-block;
-    height: 0.16rem;
-    margin: 0.06rem 0 0 0.1rem;
+    height: 0.12rem;
+    margin: 0 0 0 0;
     border-radius: 0.08rem;
 }
 
@@ -201,14 +204,14 @@ body{background-color: #F0F3F6; font-family:PingFangSC,"Helvetica neue",Arial, H
     background-color: #4F5F6F;
     width: 49%;
     padding: 0.17rem 0;
-    font-size: 0.16rem;
+    font-size: 0.14rem;
 }
 
 
 /*share*/
 .bgbody {background-color: #fff;}
 .main-share{
-    background: #fff url(../image/back3.png) no-repeat;
+    background: #fff url(../image/back3.png?1) no-repeat;
     background-size: cover;
 }
 .block-share {
@@ -233,18 +236,19 @@ div.jiyin {
 }
 
 div.jiyin ul:first-of-type{
-    width: 26%;
+    width: 23%;
 }
 div.jiyin ul:nth-of-type(2){
-    width: 23%;
+    width: 21%;
 }
 
 .info-text {
-    font-size: 0.166rem;
+    font-size: 0.13rem !important;
+    line-height: 0.21rem !important;
 }
 
 div.jiyin ul:nth-of-type(3){
-    width: 20%;
+    width: 29%;
 }
 
 div.jiyin ul:nth-of-type(3) li span {
@@ -255,7 +259,7 @@ div.jiyin ul:nth-of-type(3) li span {
 
 div.jiyin ul li{
     line-height: 0.36rem;
-    font-size: 0.14rem;
+    font-size: 0.11rem;
 }
 
 div.jiyin .erweima{
@@ -267,7 +271,7 @@ div.jiyin .erweima img{
 }
 
 div.jiyin .erweima p{
-    font-size: 0.115rem;
+    font-size: 0.105rem;
 }
 
 /*science*/
